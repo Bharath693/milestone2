@@ -1,0 +1,10 @@
+function details(firstName,age){
+this.firstName=firstName;
+this.age=age;
+this.property=display;
+}
+function display(){
+return 'my name is '+this.firstName+','+' my age is 'this.age;
+}
+const a=new details("bharath",24);
+console.log(a.property());
