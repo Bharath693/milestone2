@@ -1,0 +1,8 @@
+var details={
+firstName="bharath",
+age=32,
+property:function(){
+return 'my name is '+this.firstName+' my age is '+this.age;
+}
+}
+console.log(details.property());
